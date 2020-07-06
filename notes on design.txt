@@ -1,0 +1,23 @@
+1) FilmBox
+"Upcomming Film Releases" (holds everyhing), the parent
+2) Film List (loop through list, use <ul> and <li> tags)
+3) Film (details on individual film, content added to Film List)
+4) Footer "View more upcomming releases"
+
+App.js sits above all of them
+
+Containers:
+1) FilmBox
+
+Components:
+2) Film List
+3) Film
+4) Footer
+
+
+Hierarchy:
+App.js
+        1) FilmBox
+                    2) Film List
+                                    3) Film
+                    4) Footer
