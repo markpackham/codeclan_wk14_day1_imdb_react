@@ -1,3 +1,37 @@
 body {
   padding: 2rem;
 }
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.film-box,
+.film-list,
+.film {
+  padding: 1rem;
+}
+
+.film-box {
+  border-color: red;
+  border-width: 5px;
+  border-style: solid;
+}
+
+.film-list {
+  border-color: blue;
+  border-width: 3px;
+  border-style: solid;
+}
+
+.film {
+  border-color: yellow;
+  border-width: 3px;
+  border-style: solid;
+}

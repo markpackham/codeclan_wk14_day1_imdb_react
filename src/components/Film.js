@@ -6,7 +6,9 @@ export default class Film extends Component {
     return (
       <li className="film">
         <h4>
-          <a href={this.props.url}>{this.props.name}</a>
+          <a target="_blank" rel="noopener noreferrer" href={this.props.url}>
+            {this.props.name}
+          </a>
         </h4>
       </li>
     );

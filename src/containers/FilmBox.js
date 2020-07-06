@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Footer from "../components/Footer";
+import FilmList from "../components/FilmList";
 
 export default class FilmBox extends Component {
   constructor(props) {
@@ -39,6 +40,10 @@ export default class FilmBox extends Component {
   render() {
     return (
       <div className="film-box">
+        <h1>Upcoming Film Releases for the UK</h1>
+        <hr />
+        <FilmList films={this.state.films} />
+        <hr />
         <Footer />
       </div>
     );
