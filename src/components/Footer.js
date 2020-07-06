@@ -5,7 +5,11 @@ export default class Footer extends Component {
     return (
       <Fragment>
         View more upcomming releases &nbsp;
-        <a target="_blank" href="https://www.imdb.com/calendar/?region=gb">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.imdb.com/calendar/?region=gb"
+        >
           >>
         </a>
       </Fragment>

@@ -1,5 +1,5 @@
 1) FilmBox
-"Upcomming Film Releases" (holds everyhing), the parent
+"Upcomming Film Releases" (holds all the components and has the data in it's constructor), the parent
 2) Film List (loop through list, use <ul> and <li> tags)
 3) Film (details on individual film, content added to Film List)
 4) Footer "View more upcomming releases"
