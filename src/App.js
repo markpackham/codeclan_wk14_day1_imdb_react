@@ -1,8 +1,9 @@
 import React from "react";
+import FilmBox from "./containers/FilmBox";
 import "./App.css";
 
 function App() {
-  return <h1>Hello World</h1>;
+  return <FilmBox />;
 }
 
 export default App;
