@@ -14,24 +14,38 @@ a:hover {
 
 .film-box,
 .film-list,
-.film {
+.film,
+.footer {
   padding: 1rem;
 }
 
 .film-box {
+  background-color: lightcoral;
   border-color: red;
   border-width: 5px;
   border-style: solid;
 }
 
 .film-list {
+  background-color: lightblue;
   border-color: blue;
   border-width: 3px;
   border-style: solid;
+  z-index: 50;
 }
 
 .film {
+  background-color: lemonchiffon;
   border-color: yellow;
   border-width: 3px;
   border-style: solid;
+  z-index: 100;
+}
+
+.footer {
+  background-color: aquamarine;
+  border-color: green;
+  border-width: 3px;
+  border-style: solid;
+  z-index: 100;
 }

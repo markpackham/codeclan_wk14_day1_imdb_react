@@ -3,7 +3,7 @@ import React, { Component, Fragment } from "react";
 export default class Footer extends Component {
   render() {
     return (
-      <Fragment>
+      <div className="footer">
         View more upcomming releases &nbsp;
         <a
           target="_blank"
@@ -12,7 +12,7 @@ export default class Footer extends Component {
         >
           >>
         </a>
-      </Fragment>
+      </div>
     );
   }
 }

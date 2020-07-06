@@ -1,7 +1,8 @@
 1) FilmBox
 "Upcomming Film Releases" (holds all the components and has the data in it's constructor), the parent
-2) Film List (loop through list, use <ul> and <li> tags)
-3) Film (details on individual film, content added to Film List)
+Has props for "id", "name" and "url" & a constructor. Has the films list array.
+2) FilmList (loop through list from Film, use <ul> and <li> tags) gets its props from FilmBox
+3) Film (details on individual film, content added to Film List) gets its props from FilmList
 4) Footer "View more upcomming releases"
 
 App.js sits above all of them
@@ -10,7 +11,7 @@ Containers:
 1) FilmBox
 
 Components:
-2) Film List
+2) FilmList
 3) Film
 4) Footer
 
